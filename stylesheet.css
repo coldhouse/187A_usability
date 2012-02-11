@@ -1,0 +1,224 @@
+@charset "utf-8";
+/* CSS Document */
+
+body  {
+font-family:'georgia';
+}
+
+/* This is the content section of the website. Do not put text. Only div's only.*/
+.content {
+width: 740px;
+margin-left:255px;
+height: auto;
+vertical-align: top; 
+display: block;
+vertical-align: top;
+float: inherit;
+}
+
+#title {
+font-size: 22px;
+}
+
+/*BEGIN navigation CSS*/
+/*navigation CSS*/
+.navigation {
+float: left;
+width: 240px;
+height: auto;
+min-height: 800px;
+position: absolute;
+border-top: 2px solid black;
+margin-top: 50px;
+background:#CCCCCC;
+background-repeat:repeat-y;
+background-attachment:scroll;
+padding-top: 20px;
+}
+
+.navigation ul {
+padding-left: 0PX;
+list-style-type: none;
+text-align: left;
+margin-top: 30px;
+}
+
+.navigation a {
+display: block;
+padding: 7px 0 7px 0;
+font-size: 14px;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+.navigation a:link , .navigation a:visited{
+text-decoration: none;
+color: black;
+}
+
+.navigation a:hover {
+color: gray;
+}
+
+
+#list a:link#current, #list a:visited#current{
+color: blue;
+text-align:left;
+font-weight:bold;
+text-decoration: none;
+background-color: #999;
+}
+
+.navigationitem
+{
+	border-collapse: collapse;
+	border-bottom-style: solid;
+	border-top-width: thin;
+	border-bottom-width: thin;
+	border-bottom-color: white;
+	
+}
+
+.navtopheader
+{
+	border-top-style:solid; 
+	border-top-width: thin; 
+	border-top-color:#FFFFFF
+	
+}
+
+.navigationitem li
+{
+	list-style-type:none;
+	margin-left: 0px;
+
+}
+
+
+.backnext {
+font-size:10pt;
+font-style:oblique;	
+}
+.catindent {
+	text-indent: 25px;
+}
+.cat2indent { 
+	text-indent: 8px;
+}
+.annouce {
+	padding-top: 5px;
+	text-indent: 12px;
+	font-size:8pt;
+	font-weight:bold;	
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*END navigation CSS */
+
+/* CSS to expand up images on rollover */
+.expand {
+float: left;
+clear: none;
+border: 1px solid #d12838;
+}
+
+.expand a { 
+display:block;
+text-decoration: none;
+}
+
+.expand a:hover{
+position:relative;
+}
+
+.expand span img {
+border: 1px solid black;
+}
+
+.expand a span {
+position: absolute;
+display:none;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 13px;
+padding-left: 10px;
+}
+
+.expand img {
+border-width: 0;
+}
+
+.expand a:hover span { 
+display:block;
+top: -90px; 
+left: -200px;
+z-index: 100;
+}
+/* END CSS to expand up images on rollover */
+
+/* This the top title header of the website. */
+.title {
+	font-size: 22pt;
+	height: 50px;
+	vertical-align: middle;
+	width: 980px;
+	border-width: 1px;
+	float: left;
+	order-bottom-color:#000; 
+	border-bottom-width:2px; 
+	border-bottom-style: solid;
+}
+
+/* This is the footer of the website. */
+.footer
+{
+	border-top:thin;
+	border-top-style:solid;
+	width:770px;
+	font-size: 10pt;
+	padding-top: 10px;
+	line-height: 20px;
+	margin-top: 43px;
+	position:relative;
+}
+/* This is where you should begin writing. */
+.writing
+	{
+		word-wrap:break-word;
+		vertical-align: top;
+		text-align:justify;
+		text-wrap:normal;
+		height: auto;
+		padding-top: 100px;
+		min-height: 300px;
+
+	}
+
+
+hr {
+	color: #333;
+	line-height: 1px;
+		
+}
+.span4
+{
+width: 100px;	
+}
+
+blockquote.talk1 {
+  font: 14px/20px italic Times, serif;
+  padding: 8px;
+  background-color: #FF9;
+  border-top: 1px solid #e1cc89;
+  border-bottom: 1px solid #e1cc89;
+  margin: 5px;
+  background-image: url(images/openquote1.gif);
+  background-position: top left;
+  background-repeat: no-repeat;
+  text-indent: 23px;
+  }
+  blockquote.talk1 span {
+     display: block;
+     background-image: url(images/closequote1.gif);
+     background-repeat: no-repeat;
+     background-position: bottom right;
+   }
